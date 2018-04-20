@@ -9,17 +9,16 @@
 title: 优优的学习专栏
 brief-intro: Android and Python Coder
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://YOUYOOU.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
-github_username:  643435675
-email: 643435675@QQ.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
+github_username:  YOUYOOU
+email: 17621541099@163.com
+weibo_username: 夏天夏天呼叫西瓜er
 linkedIn_username: gaohaoyang
 dribbble_username:
 
