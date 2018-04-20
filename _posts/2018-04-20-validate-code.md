@@ -198,7 +198,7 @@ public class ValidateCode {
 ```
 ## controller层输入图形验证码
 
-```Java
+```java
 /** 
  * 响应验证码页面 
  * @return 
@@ -224,7 +224,7 @@ public String validateCode(HttpServletRequest request,HttpServletResponse respon
 
 ## controller层验证验证码输入是否正确
 
-```Java
+```java
 
     String code = request.getParameter("code");  
     HttpSession session = request.getSession();  
