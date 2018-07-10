@@ -16,12 +16,14 @@ inetaddress.config.allowIp=
 ```
 
 
+
 1.配置文件配置白名单IP
 ```js
 inetaddress.config.allowIp=
 
 ```
 2.配置Configurer文件
+
 ```java
 @Configuration
 public class SecurityConfigurer extends WebMvcConfigurerAdapter {
@@ -40,7 +42,9 @@ public class SecurityConfigurer extends WebMvcConfigurerAdapter {
 
 }
 ```
+
 3.定义配置文件中的字段
+
 ```java
 @ConfigurationProperties(prefix = InetAddressConfiguration.PREFIX)
 public class InetAddressConfiguration {
@@ -67,7 +71,9 @@ public class InetAddressConfiguration {
 
 }
 ```
+
 4.白名单逻辑
+
 ```java
 public class InetAddressInterceptor implements HandlerInterceptor {
 
@@ -145,5 +151,6 @@ public class InetAddressInterceptor implements HandlerInterceptor {
   }
 
 }
+
 ```java
    
