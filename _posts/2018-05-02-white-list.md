@@ -2,7 +2,7 @@
 layout: post
 title:  "IP白名单"
 categories: java
-tags:  白名单 java spring boot
+tags:  白名单 java springBoot
 author: YOYO
 ---
 
